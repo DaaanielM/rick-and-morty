@@ -41,7 +41,7 @@ const GridCards = ({ search }) => {
 			</div>
 			<div className={styles.mainButtons}>
 				<button className={styles.button} onClick={handlePreviousPage}>
-					{page - 1 == 0 ? '' : page - 1}
+					{page - 1 === 0 ? '' : page - 1}
 				</button>
 				<button className={styles.button} onClick={handleNextPage}>
 					{page + 1}
