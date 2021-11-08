@@ -1,5 +1,6 @@
 .content{
     width: 100%;
+    margin: auto;
     background: rgba(0, 143, 57, 0.226);
 }
 .main {

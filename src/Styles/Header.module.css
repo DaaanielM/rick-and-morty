@@ -7,8 +7,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .logo {
     width: 30rem;
 }
+
+@media screen and (max-width: 768px) {
+    .logo{
+
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .logo{
+        width: 22rem;
+    }
+}
+
