@@ -1,0 +1,9 @@
+.content{
+    width: 100%;
+    background: rgba(0, 143, 57, 0.226);
+}
+.main {
+    padding-top: 2rem;
+    width: 80%;
+    margin: auto;
+}

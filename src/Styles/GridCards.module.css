@@ -1,0 +1,33 @@
+.container {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.mainButtons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    width: 70px;
+    padding: 8px;
+    border-radius: 15px;
+    margin: 40px 5px;
+    border: none;
+    border: 1px solid rgb(138, 218, 63);
+    color: rgb(169, 235, 95);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(9, 76, 107);
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #fff;
+    color:rgb(132, 173, 49);
+    border: 1px solid rgb(250, 234, 7);
+
+}

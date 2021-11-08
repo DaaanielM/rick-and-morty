@@ -1,0 +1,75 @@
+.mainCard{
+    width: 100%;
+    background: rgb(9, 76, 107);
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor: pointer;
+}
+.mainCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+
+}
+.card{
+    width: 92%;
+    margin: 0.8em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.image{
+    border-radius: 12px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.image:hover{
+    transform: scale(1.091);
+}
+
+.content{
+    margin-top: 15px;
+    color: aliceblue;
+    text-align: center;
+}
+.name{
+    font-size: 1.2em;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    letter-spacing:1px;
+}
+.name:hover{
+    color: rgb(169, 235, 95);
+}
+.dates{
+    letter-spacing:0.5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.gender{
+    color:rgb(125, 192, 255);
+}
+
+.gender:hover{
+    color:rgb(80, 170, 255);
+
+}
+
+.specie{
+    color: rgb(22, 240, 123);
+
+}
+
+.specie:hover{
+    color: rgb(33, 200, 33);
+
+}
