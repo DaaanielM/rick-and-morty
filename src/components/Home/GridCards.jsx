@@ -7,16 +7,16 @@ const GridCards = ({ search }) => {
 	const [page, setPage] = useState(1);
 	const [maxPages, setMaxPages] = useState(1);
 
-	const getData = async () => {
-		const response = await getCharacters(page, search);
-		if (response) {
-			setData(response.results);
-			setMaxPages(response.info.pages);
-		} else {
-			alert('Ha ocurrido un error, intentelo más tarde');
-		}
-	};
 	useEffect(() => {
+		const getData = async () => {
+			const response = await getCharacters(page, search);
+			if (response) {
+				setData(response.results);
+				setMaxPages(response.info.pages);
+			} else {
+				alert('Ha ocurrido un error, intentelo más tarde');
+			}
+		};
 		getData();
 	}, [page, search]);
 
